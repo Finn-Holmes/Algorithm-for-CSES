@@ -1,9 +1,9 @@
-### 题目描述
+## 题目描述
 
 In a movie festival, n movies will be shown. Syrjälä's movie club consists of k members, who will be all attending the festival.
 You know the starting and ending time of each movie. What is the maximum total number of movies the club members can watch entirely if they act optimally?
 
-### 输入
+## 输入
 The first input line has two integers n and k: the number of movies and club members.
 After this, there are n lines that describe the movies. Each line has two integers a and b: the starting and ending time of a movie.
 
@@ -13,9 +13,9 @@ Constraints
 
 1≤a < b≤109
 
-### 输出
+## 输出
 Print one integer: the maximum total number of movies.
-### 样例输入
+## 样例输入
 ```
 5 2
 1 5
@@ -24,11 +24,11 @@ Print one integer: the maximum total number of movies.
 2 5
 6 9
 ```
-### 样例输出
+## 样例输出
 ```
 4
 ```
-### 题解
+## 题解
 我认为这道题的核心在于排序和有序查找，一开始我自己写，排序是对的，但是查找部分是二层循环，很明显n*k的复杂度是明显超时的，mutliset的好处就在于使查找有序从而压缩时间
 ### code
 ```C++
