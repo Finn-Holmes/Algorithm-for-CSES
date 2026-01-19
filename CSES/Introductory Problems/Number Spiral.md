@@ -2,7 +2,8 @@
 A number spiral is an infinite grid whose upper-left square has number 1. Here are the first five layers of the spiral:
 
 Your task is to find out the number in row y and column x.
-![图片]("C:\Users\Finn\Desktop\20240227201624_61918.png")
+
+![图片怎么没加载出来捏~(￣▽￣)~*](../images/20240227201624_61918.png)
 ## 输入
 The first input line contains an integer t（1 ≤ t ≤ 105）: the number of tests.
 After this, there are t lines, each containing integers y and x（1 ≤ y,x ≤ 109）.
