@@ -32,6 +32,8 @@ For each query, print the minimum number of teleportations. If it is not possibl
 
 即为如下图
 
+![图片怎么没加载出来捏~(￣▽￣)~*](../images/8765409ecb59455497f261f1c7f973f7.png)
+
 当你看到这张图，我觉得你会和我有同样的感受：怎么比我想象的图要简单很多
 
 若 a、b 属于不同连通分支，显然不可达。我们可以把整个图看成若干个连通分支：每个分支包含一个环（cycle）与若干条指向该环的链（chain）。从 a 到 b 能否到达以及最小步数，可以按下面几种情况讨论：
